@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+}
+
+.divImg {
+
+}
+
+img {
+  position: absolute;
+  width: 100%;
+}
+
+.divText {
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+
+.cardSobre{
+width: 50%;
+margin: auto;
+background-color: #7B1FA2;
+position: relative;
+opacity: 85%;
+
+}
+
+.cardSobre h1 {
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <h3 mat-dialog-title>Você tem certeza que deseja excluir?</h3>
+  <div mat-dialog-content>
+    Id: {{data.id}}
+    <p></p>
+    Nome: {{data.nome}}
+    <p></p>
+    Email: {{data.email}}
+  </div>
+
+  <div mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="1" (click)="confirmar()" color="warn">Excluir</button>
+    <button mat-raised-button (click)="cancelar()" tabindex="-1" color="accent">Cancelar</button>
+  </div>
+</div>
